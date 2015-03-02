@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "marked",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Accessible Bookmarking",
+    "description": "The description of the application"
+  }
+}

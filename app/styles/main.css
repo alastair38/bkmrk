@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 1.75s;
+          transition: 1.75s;
+}
+
+body {
+  width: 700px;
+  min-height: 150px;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+section {
+   background: #fafafa;
+}
+
+li {
+    list-style-type: none;
+    line-height: 2.5em;
+    margin: 0;
+    padding: 0px 5px;
+    border-bottom: 1px solid #dadaca;
+    font-size: 150%;
+    background: #fff;
+     opacity: 1;
+    -webkit-animation: opacity 1.3s 1 ease-in;
+            animation: opacity 1.3s 1 ease-in;
+}
+
+li a {
+    text-decoration: none;
+    color: #414141;
+}
+
+h1, header {
+    background: #414141;
+    color:  #fafafa;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#start_text{
+    width: 80%;
+    font-size: 200%;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    text-align: center;
+     opacity: 1;
+    -webkit-animation: opacity 1.5s 1 ease-in;
+            animation: opacity 1.5s 1 ease-in;
+}
+
+.remove {
+    background: tomato;
+    color: #fafafa;
+    padding: 2px 5px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add {
+    background: #414141;
+    color: #fafafa;
+    padding: 0px 2px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.saved {
+     background: green;
+}
+
+#added {
+    opacity: 1;
+    background: tomato;
+}
+
+button#markticle_button {
+    border: none;
+    background: tomato;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: #fafafa;
+}
